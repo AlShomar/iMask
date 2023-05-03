@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConditionsAndDiseases">
+
+    <View
+        android:id="@+id/rectangle_13_ek4"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/rectangle_13_ek4_shape" />
+
+    <TextView android:id="@+id/editHealth"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="@color/_bg__logo_ek2_color"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="237dp"
+        android:layout_height="41dp"
+        android:text="@string/edit_health_details_ek4_string"/>
+
+    <ImageView
+        android:id="@+id/arrow4"
+        android:layout_width="41.01dp"
+        android:layout_height="41.01dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="arrow1"
+        android:src="@drawable/arrow" />
+
+    <TextView android:id="@+id/conditions_and_diseases_ek1"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="@color/seacrh_destination_color"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="90dp"
+        android:layout_width="307dp"
+        android:layout_height="45dp"
+        android:text="@string/conditions_and_diseases_ek1_string"
+        />
+
+    <View   android:id="@+id/rectangle_6_ek3"
+        android:background="@drawable/rectangle_6_ek2_shape"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="163dp"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp" />
+
+    <TextView android:id="@+id/dust_allergy"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="@color/seacrh_destination_color"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="181dp"
+        android:layout_width="173dp"
+        android:layout_height="45dp"
+        android:text="@string/dust_allergy_string"
+        />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switchDust"
+        android:layout_marginLeft="190dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="170dp"
+        android:layout_width="260dp"
+        android:layout_height="23dp"
+        android:thumb="@drawable/thumb"
+        android:track="@drawable/track"
+        app:showText="true"
+        android:textOn="on"
+        android:textOff="off"/>
+
+    <View   android:id="@+id/rectangle_9_ek3"
+        android:background="@drawable/rectangle_6_ek2_shape"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="238dp"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp" />
+
+    <TextView android:id="@+id/pollen_allergy"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="@color/seacrh_destination_color"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="254dp"
+        android:layout_width="221dp"
+        android:layout_height="60dp"
+        android:text="@string/pollen_allergy_string"
+        />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switchPollen"
+        android:layout_marginLeft="190dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="245dp"
+        android:layout_width="260dp"
+        android:layout_height="23dp"
+        android:thumb="@drawable/thumb"
+        android:track="@drawable/track"
+        app:showText="true"
+        android:textOn="on"
+        android:textOff="off"/>
+
+    <View   android:id="@+id/rectangle_8_ek3"
+        android:background="@drawable/rectangle_6_ek2_shape"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="313dp"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp" />
+
+    <TextView android:id="@+id/asthma"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="@color/seacrh_destination_color"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="326dp"
+        android:layout_width="348dp"
+        android:layout_height="55dp"
+        android:text="@string/asthma_string"
+        />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switchAsthma"
+        android:layout_marginLeft="190dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="320dp"
+        android:layout_width="260dp"
+        android:layout_height="23dp"
+        android:thumb="@drawable/thumb"
+        android:track="@drawable/track"
+        app:showText="true"
+        android:textOn="on"
+        android:textOff="off"/>
+
+    <View   android:id="@+id/rectangle_10_ek3"
+        android:background="@drawable/rectangle_6_ek2_shape"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="388dp"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp" />
+
+    <TextView android:id="@+id/immunocompromised"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="@color/seacrh_destination_color"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="401dp"
+        android:layout_width="348dp"
+        android:layout_height="55dp"
+        android:text="@string/immunocompromised_string"
+        />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switchimmun"
+        android:layout_marginLeft="190dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="390dp"
+        android:layout_width="260dp"
+        android:layout_height="23dp"
+        android:thumb="@drawable/thumb"
+        android:track="@drawable/track"
+        app:showText="true"
+        android:textOn="on"
+        android:textOff="off"/>
+
+    <View   android:id="@+id/rectangle_12_ek3"
+        android:background="@drawable/rectangle_6_ek2_shape"
+        android:layout_marginStart="-8dp"
+        android:layout_marginTop="463dp"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp" />
+
+    <TextView android:id="@+id/heart_condition"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="@color/seacrh_destination_color"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="477dp"
+        android:layout_width="348dp"
+        android:layout_height="55dp"
+        android:text="@string/heart_condition_string"
+        />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switchCondition"
+        android:layout_marginLeft="190dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="470dp"
+        android:layout_width="260dp"
+        android:layout_height="23dp"
+        android:thumb="@drawable/thumb"
+        android:track="@drawable/track"
+        app:showText="true"
+        android:textOn="on"
+        android:textOff="off"/>
+
+    <View   android:id="@+id/rectangle_7_ek2"
+        android:background="@drawable/rectangle_6_ek2_shape"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="538dp"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp" />
+
+    <TextView android:id="@+id/lung_cancer"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="@color/seacrh_destination_color"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="556dp"
+        android:layout_width="166dp"
+        android:layout_height="45dp"
+        android:text="@string/lung_cancer_string"
+        />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/LungCancer"
+        android:layout_marginLeft="190dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="540dp"
+        android:layout_width="260dp"
+        android:layout_height="23dp"
+        android:thumb="@drawable/thumb"
+        android:track="@drawable/track"
+        app:showText="true"
+        android:textOn="on"
+        android:textOff="off"/>
+
+    <View
+        android:id="@+id/rectangle_3_ek11"
+        android:background="@drawable/rectangle_3_ek6_shape"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="650dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+
+</RelativeLayout>
