@@ -43,6 +43,7 @@ public class UserProfile extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(UserProfile.this, ManageProfile.class);
                 startActivity(intent);
+
             }
         });
 
